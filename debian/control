@@ -1,0 +1,25 @@
+Source: ifupdown
+Section: base
+Priority: important
+Maintainer: Alexander Shishkin <alexander.shishkin@siemens.com>
+Standards-Version: 3.6.1.0
+Build-Depends: debhelper (>= 4.1.68), nowebm
+
+Package: ifupdown
+Architecture: any
+Depends: slind-virtual-net-tools, ${shlibs:Depends}
+Replaces: busybox, busybox-static
+Conflicts: busybox, busybox-static
+Provides: slind-virtual-ifupdown
+Description: high level tools to configure network interfaces
+ This package provides the tools ifup and ifdown which may be used to
+ configure (or, respectively, deconfigure) network interfaces based on
+ interface definitions in the file /etc/network/interfaces.
+
+Package: ifupdown-scripts
+Architecture: all
+Depends: slind-virtual-ifupdown
+Description: scriptss to configure network interfaces
+ This package provides startup scripts which may be used to configure
+ or deconfigure networkinterfaces, according to /etc/network/interfaces.
+
