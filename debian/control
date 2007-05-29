@@ -3,6 +3,7 @@ Section: base
 Priority: important
 Maintainer: Alexander Shishkin <alexander.shishkin@siemens.com>
 Standards-Version: 3.6.1.0
+XCS-Cross-Host-Build-Depends: debhelper (>= 4.1.68), nowebm
 Build-Depends: debhelper (>= 4.1.68), nowebm
 
 Package: ifupdown

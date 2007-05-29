@@ -1,3 +1,9 @@
+ifupdown (0.6.7.slind2) testing; urgency=low
+
+  * New build dependencies
+
+ -- Sergey Lapin <slapin@slind.org>  Tue, 29 May 2007 19:26:02 +0400
+
 ifupdown (0.6.7.slind1) testing; urgency=low
 
   * Testing prerelease.
