@@ -1,3 +1,10 @@
+ifupdown (0.6.7.slind3) testing; urgency=low
+
+  * Update section field to 'core'.
+  * Change maintainer email.
+
+ -- Alexander Shishkin <virtuoso@slind.org>  Thu, 12 Jul 2007 13:53:23 +0400
+
 ifupdown (0.6.7.slind2) testing; urgency=low
 
   * New build dependencies

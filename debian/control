@@ -1,9 +1,10 @@
 Source: ifupdown
-Section: base
+Section: core
 Priority: important
-Maintainer: Alexander Shishkin <alexander.shishkin@siemens.com>
+Maintainer: Alexander Shishkin <virtuoso@slind.org>
 Standards-Version: 3.6.1.0
 XCS-Cross-Host-Build-Depends: debhelper (>= 4.1.68), nowebm
+XCS-Cross-Build-Depends: cross-toolchain
 Build-Depends: debhelper (>= 4.1.68), nowebm
 
 Package: ifupdown
